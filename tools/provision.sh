@@ -75,7 +75,7 @@ sudo mkdir /projects
 
 # Upgrate the system packages
 echo "[vagrant provisioning] Upgrade the system packages..."
-apt-get -y upgrade
+sudo apt-get -y update
 
 echo "[vagrant provisioning] Creating .provision_check file..."
 touch .provision_check
