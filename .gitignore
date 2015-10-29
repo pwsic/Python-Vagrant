@@ -1,2 +1,3 @@
 vhosts/
 .vagrant/
+.DS_Store
