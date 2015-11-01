@@ -67,7 +67,7 @@ sudo apt-get -y install vim
 
 # Packages
 echo "[vagrant provisioning] Installing additional packages..."
-sudo apt-get -y install gcc autoconf bison flex libtool make libboost-all-dev libcurl4-openssl-dev curl libevent-dev uuid-dev libhiredis-dev libmemcached-dev gperf build-essential
+sudo apt-get -y install gcc autoconf bison flex libtool make libboost-all-dev libcurl4-openssl-dev curl libevent-dev uuid-dev libhiredis-dev libmemcached-dev gperf build-essential libmysqlclient-dev
 
 # Create project directory
 echo "[vagrant provisioning] Creating /projects folder..."
