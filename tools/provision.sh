@@ -61,6 +61,9 @@ sudo apt-get -y install redis-server
 echo "[vagrant provisioning] Installing git..."
 sudo apt-get -y install git
 
+echo "[Vagrant provisioning] Installing mysql-python..."
+#pip install mysql-python
+
 # VIM
 echo "[vagrant provisioning] Installing vim..."
 sudo apt-get -y install vim
